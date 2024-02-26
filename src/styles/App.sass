@@ -1,0 +1,114 @@
+*
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+
+main
+  min-height: 110vh
+  width: 100%
+  background: linear-gradient(0.120turn, #5FD8DD, #8168E9, #A739D9)
+  display: grid
+  place-content: center
+  row-gap: 1rem
+  color: #fff
+
+  .linkButtons
+    text-decoration: none
+    border: 1px solid #fff
+    color: #fff
+    padding: .5rem 1rem
+
+  .container
+    background-color: #fff
+    display: flex
+    flex-direction: column
+    padding: 1rem 3rem 3rem
+    border-radius: 5px
+    box-shadow:  rgba(0, 0, 0, 0.4) 0px 15px 30px
+    text-align: center
+    margin-bottom: 1rem
+    color: #000
+
+    h1
+      font-size: 2rem
+      padding: 1rem
+      color: #000
+    
+    .containerText
+      padding: 0 .5rem 1rem
+      color: #000
+
+    form
+      display: flex
+      flex-direction: column
+      text-align: left
+      row-gap: 1rem
+      color: #000
+
+      div
+        display: flex
+        flex-direction: column
+        text-align: left
+
+        label
+          font-size: .8rem
+          margin: .3rem 0
+        
+        input
+          border: none
+          border-bottom: 1px solid  #000
+          outline: none
+        
+      select
+        border: 1.5px solid #8168E9
+        border-radius: 5px
+        padding: .3rem .0rem
+
+        &:focus
+          border-color: #A739D9
+      
+      .termosDeUso
+        flex-direction: row
+
+.header
+  display: flex
+  align-items: center
+  justify-content: space-between
+  padding-top: 1rem
+  column-gap: 1rem
+
+  a 
+    color: #fff
+    text-decoration: none
+    transition: .5s
+
+    &:hover
+      text-decoration: underline
+
+  div
+    display: flex
+    column-gap: 1rem
+
+table 
+  width: 100%
+  border-collapse: collapse
+  color: #fff
+  text-align: center
+
+th 
+  background-color: #f2f2f2
+  border: 1px solid #dddddd
+  padding: 8px
+  text-align: left
+
+td 
+  border: 1px solid #dddddd
+  padding: 8px
+
+tr:nth-child(even) 
+  background-color: #f9f9f9
+
+footer 
+  color: #fff
+  margin: 2rem 0rem 1rem
+  text-align: center
